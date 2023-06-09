@@ -30,21 +30,23 @@ cv2.waitKey(0)
   
 ```
 ii) #To write the image
+```python
 import cv2
 color_image = cv2.imread('ducati.jpg',1)
 h = cv2.imwrite('ducati.jpg',color_image)
 cv2.imshow('super',color_image)
 cv2.waitKey(0) 
-
+```
 
 iii) #Find the shape of the Image
+```python
 import cv2
 color_image = cv2.imread('ducati.jpg',1)
 print(color_image.shape)
 
 
 iv) #To access rows and columns
-
+```python
 import random
 import cv2
 color_image = cv2.imread('ducati.jpg',1)
@@ -54,16 +56,17 @@ for i in range(150):
 cv2.imshow('ducati.jpg',color_image)
 cv2.waitKey(0)
 
-
+```
 
 v) #To cut and paste portion of image
+```python
 import cv2
 color_image = cv2.imread('ducati.jpg',1)
 part = color_image[300:400,300:400]
 color_image[50:150,50:150] = part
 cv2.imshow("superbike",color_image)
 cv2.waitKey(0)
-
+```
 
 
 
