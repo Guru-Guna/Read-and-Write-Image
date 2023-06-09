@@ -22,13 +22,13 @@ End the program and close the output image windows.
 ### Developed By: Gunaseelan G
 ### Register Number: 212221230031
 i) #To Read,display the image
-
+```python
 import cv2
 color_image=cv2.imread("ducati.jpg",1)
 cv2.imshow("2122212300",color_image)
 cv2.waitKey(0)
   
-
+```
 ii) #To write the image
 import cv2
 color_image = cv2.imread('ducati.jpg',1)
